@@ -9,6 +9,7 @@
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.1",
     "bytes": "^3.1.1",
+    "connect-session-sequelize": "^7.1.2",
     "content-disposition": "^0.5.4",
     "content-type": "^1.0.4",
     "cookie": "^0.4.1",
@@ -25,6 +26,7 @@
     "etag": "^1.8.1",
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
     "finalhandler": "^1.1.2",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
@@ -95,5 +97,8 @@
   "bugs": {
     "url": "https://github.com/trfina/just-tech-news/issues"
   },
-  "homepage": "https://github.com/trfina/just-tech-news#readme"
+  "homepage": "https://github.com/trfina/just-tech-news#readme",
+  "devDependencies": {
+    "mysql-db-seed": "^0.0.4"
+  }
 }
